@@ -1,0 +1,36 @@
+{
+  "name": "ahj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "lint": "eslint . --fix"
+  },
+  "author": "coursar",
+  "license": "ISC",
+  "dependencies": {
+    "filereader": "^0.10.3",
+    "forever": "^4.0.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa2-cors": "^2.0.6",
+    "uuid": "^8.3.2",
+    "ws": "^7.4.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anna-Kolycheva/ahj-diploma-ChaosBot-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Anna-Kolycheva/ahj-diploma-ChaosBot-backend/issues"
+  },
+  "homepage": "https://github.com/Anna-Kolycheva/ahj-diploma-ChaosBot-backend#readme"
+}
